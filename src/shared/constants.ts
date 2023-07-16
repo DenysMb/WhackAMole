@@ -1,0 +1,5 @@
+export const MIN_MOLE_INDEX = 0;
+export const MAX_MOLE_INDEX = 11;
+
+export const SECONDS_IN_MILLISECOND = 1000;
+export const MOLE_DISPLAY_TIME = SECONDS_IN_MILLISECOND / 2;

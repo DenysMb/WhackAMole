@@ -1,0 +1,21 @@
+.ScoreViewer {
+  &Container {
+    position: absolute;
+    left: 32px;
+    top: 32px;
+    text-align: center;
+  }
+
+  &Title {
+    color: #f00;
+    font-weight: 900;
+    text-shadow: -2px 0px 0px #fff, 2px 0px 0px #fff, 0px -2px 0px #fff,
+      0px 2px 0px #fff;
+  }
+
+  &Score {
+    font-weight: 900;
+    text-shadow: -2px 0px 0px #fff, 2px 0px 0px #fff, 0px -2px 0px #fff,
+      0px 2px 0px #fff;
+  }
+}

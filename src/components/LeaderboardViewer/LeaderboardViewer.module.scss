@@ -1,0 +1,33 @@
+.LeaderboardViewer {
+  &Container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #fff;
+    border-radius: 16px;
+    padding: 32px;
+    gap: 16px;
+  }
+
+  &Row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    
+    &Name {
+      font-size: 1em;
+      font-weight: 700;
+      text-shadow: -1px 0px 0px #fff, 1px 0px 0px #fff, 0px -1px 0px #fff,
+      0px 1px 0px #fff;
+    }
+
+    &Score {
+      font-size: 1.5em;
+      font-weight: 900;
+      text-shadow: -1px 0px 0px #fff, 1px 0px 0px #fff, 0px -1px 0px #fff,
+      0px 1px 0px #fff;
+      color: #f00;
+    }
+  }
+}
